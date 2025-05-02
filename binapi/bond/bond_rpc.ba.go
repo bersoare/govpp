@@ -6,9 +6,9 @@ import (
 	"context"
 	"fmt"
 	"io"
+	"memclnt"
 
 	api "go.fd.io/govpp/api"
-	memclnt "go.fd.io/govpp/binapi/memclnt"
 )
 
 // RPCService defines RPC service bond.
